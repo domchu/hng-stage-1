@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileImg from "../src/Images/profile-img.png";
+import Links from "./Links";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
             <h3>Annette Black</h3>
           </div>
         </div>
+        <Links />
       </div>
     </>
   );

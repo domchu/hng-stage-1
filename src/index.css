@@ -3,6 +3,8 @@
 ::before {
   margin: 0;
   font-family: sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 code {
@@ -11,6 +13,7 @@ code {
 .page-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin-top: 2.5rem;
   width: 100%;
@@ -31,3 +34,13 @@ h3 {
   font-size: 1.5rem;
 }
 /* end of the header section */
+.links__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.btn {
+  border: 1px solid;
+  padding: 1.8rem 0;
+}
