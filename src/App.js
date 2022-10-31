@@ -1,6 +1,8 @@
 import React from "react";
 import ProfileImg from "../src/Images/profile-img.png";
 import Links from "./Links";
+import { BsGithub } from "react-icons/bs";
+import { BsSlack } from "react-icons/bs";
 function App() {
   return (
     <>
@@ -14,6 +16,10 @@ function App() {
           </div>
         </div>
         <Links />
+        <div className="icon__container">
+          <BsSlack className="slack" />
+          <BsGithub className="slack" />
+        </div>
       </div>
     </>
   );

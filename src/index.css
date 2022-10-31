@@ -54,3 +54,10 @@ h3 {
   width: 75rem;
   height: auto;
 }
+.icon__container {
+  margin: 1.8rem 0;
+}
+.slack {
+  margin: 1rem;
+  font-size: 1.6rem;
+}
