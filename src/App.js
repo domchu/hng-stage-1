@@ -22,6 +22,7 @@ function App() {
           <BsGithub className="slack" />
         </div>
       </div>
+
       <footer className="footer__container">
         <div className="footer-1">
           <div className="intern">
